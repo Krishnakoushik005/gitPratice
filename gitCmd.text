@@ -1,0 +1,8 @@
+git add <file name..>
+    for tracking files in stageing area[local repo] and also, adding changes.
+git commit -m "commit message"
+    for version control.
+git commit -a -m "commit message"
+    for skip [git add] when file must tracked in stagening. otherWise use git add , commit them.
+git log
+    showing commits history.

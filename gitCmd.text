@@ -6,3 +6,7 @@ git commit -a -m "commit message"
     for skip [git add] when file must tracked in stagening. otherWise use git add , commit them.
 git log
     showing commits history.
+git diff
+    showing lines add,modify and del when before [git add] (adding stageing modified file).
+git diff --staged
+    showing lines add,modify and del when [git add] (added to stageing area).

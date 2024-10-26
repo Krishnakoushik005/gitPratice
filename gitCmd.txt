@@ -12,3 +12,5 @@ git diff --staged
     showing lines add,modify and del when [git add] (added to stageing area).
 git add .
     use multiples files, same as [git add].
+git rm --cached <file name..>
+    removed file in [local repo].

@@ -15,7 +15,8 @@ git add .
 git rm --cached <file name..>
     removed file in [local repo].
 
-git taging two 1, annotated tag 2, lightweight tag.
+## git taging two 1, annotated tag 2, lightweight tag.
+
 git tad -a (version) -m "msg"
     for specifiy vesion, (adding tag to all issues solved commit).
 git tag
@@ -24,3 +25,12 @@ git show (version)
     it give description about tag.
 git push origin (version)
     add tag to remote repo.
+
+## git branch
+checkout older one , switch new .
+
+git checkout -b [branch name]
+    creating branch.
+git branch
+    show branchs. (*) pointer indicate current branch.
+

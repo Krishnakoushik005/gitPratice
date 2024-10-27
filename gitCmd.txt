@@ -14,3 +14,11 @@ git add .
     use multiples files, same as [git add].
 git rm --cached <file name..>
     removed file in [local repo].
+
+git taging two 1, annotated tag 2, lightweight tag.
+git tad -a (version) -m "msg"
+    for specifiy vesion, (adding tag to all issues solved commit).
+git tag
+    showing all tags created.
+git show [(version)]
+    it give description about tag.

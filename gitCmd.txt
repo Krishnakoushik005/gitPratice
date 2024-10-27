@@ -27,10 +27,15 @@ git push origin (version)
     add tag to remote repo.
 
 ## git branch
-checkout older one , switch new .
+checkout older one , switch new . both same
 
-git checkout -b [branch name]
+git checkout -b [branch name] OR git switch -c [branch name]
     creating branch.
 git branch
     show branchs. (*) pointer indicate current branch.
-
+git switch [branch name]
+    switching into [branch name].
+git switch -
+    switching into previous branch.
+git branch --all
+        show branchs and also remote branchs. (*) pointer indicate current branch.

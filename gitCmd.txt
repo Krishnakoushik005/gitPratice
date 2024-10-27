@@ -20,5 +20,7 @@ git tad -a (version) -m "msg"
     for specifiy vesion, (adding tag to all issues solved commit).
 git tag
     showing all tags created.
-git show [(version)]
+git show (version)
     it give description about tag.
+git push origin (version)
+    add tag to remote repo.
